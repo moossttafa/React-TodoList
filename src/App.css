@@ -19,14 +19,21 @@
 .app-wrapper {
   background-color: #292f38;
   width: 25%;
-  min-width: 350px;
+  min-width: 450px;
   height: 600px;
   padding: 30px;
   box-sizing: border-box;
   border-radius: 5px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+ 
 }
+@media screen and (max-width: 575px) {
+  .app-wrapper{
+    width: 90%;
+    min-width: 350px;
 
+  }
+}
 .header h1 {
   color: #ccc;
   font-weight: 300;
